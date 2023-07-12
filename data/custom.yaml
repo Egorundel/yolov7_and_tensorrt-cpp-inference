@@ -1,0 +1,6 @@
+train: ./our/train.txt # ~23840 images
+val: ./our/val.txt # ~5960 images
+# test: ./PATH_to_TEST_file (if you want to test later)
+
+nc: 11
+names: ['biker', 'car', 'pedestrian', 'trafficLight', 'trafficLight-Green', 'trafficLight-GreenLeft', 'trafficLight-Red', 'trafficLight-RedLeft', 'trafficLight-Yellow', 'trafficLight-YellowLeft', 'truck']

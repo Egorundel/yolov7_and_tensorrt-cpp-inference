@@ -136,4 +136,6 @@ And in the ***weights*** folder you will find the resulting weights in **.pt** f
 
 My results were not very good, so I was too lazy to wait for long training, and in general I trained the network with the number of epochs equal to 3 :stuck_out_tongue_closed_eyes:
 
+___
+
 # 3. Creating an ONNX model

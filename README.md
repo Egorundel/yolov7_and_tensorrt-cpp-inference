@@ -5,6 +5,8 @@
 I will show by my example what needs to be done to run a trained yolov7 network on a custom dataset with custom classes.  
 I advise you to perform all actions in a virtual environment, however, this is not necessary.
 
+First of all, you need to download the repository to your computer. Open a terminal and enter the command `git clone https://github.com/Egorundel/yolov7_and_tensorrt-cpp-inference.git` to install all the necessary libraries. To do this, launch a terminal from the downloaded folder and run the `pip install -r requirements.txt` command in it.
+
 # 1. Preparing data for training
 
 To begin with, I advise you to create a folder with your training files in the folder ***yolov7_and_tensorrt-cpp-inference***. I have this folder called ***our*** with the following structure:

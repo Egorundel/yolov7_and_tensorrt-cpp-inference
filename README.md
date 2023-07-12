@@ -73,15 +73,12 @@ touch custom.yaml
 And then open this file in any text editor, for example, Sublime Tex and edit the file (I'll show you with my example).
 ```yaml
 # train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
-train: ./our/train.txt  # ~2605 images
-val: ./our/val.txt  # ~380 images
-test: ./our/test.txt  # ~330 images
+train: ./our/train.txt # ~23840 images
+val: ./our/val.txt # ~5960 images
+# test: ./PATH_to_TEST_folder (if you want to test later)
 
-# number of classes
-nc: 13
-
-# class names
-names: [ 'lights', 'trailer', 'animal', 'break_light', 'train', 'trafficlight', 'sign', 'bus', 'truck', 'person', 'bicycle', 'motorcycle', 'car' ]
+nc: 11
+names: ['biker', 'car', 'pedestrian', 'trafficLight', 'trafficLight-Green', 'trafficLight-GreenLeft', 'trafficLight-Red', 'trafficLight-RedLeft', 'trafficLight-Yellow', 'trafficLight-YellowLeft', 'truck']
 ```
 
 If you, like me, did not have ready-made txt files, but only the annotations folder with the file .json, then you need:

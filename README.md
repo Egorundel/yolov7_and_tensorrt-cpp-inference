@@ -11,6 +11,8 @@ To begin with, I advise you to create a folder with your training files in the f
 
 <h2 style="color:red"> ВСТАВИТЬ СЮДА ПИКЧУ 1_sreen.png </h2>
 
+Начнём по порядку. Сначала в папке 
+
 
 First you need to create your custom.yaml in the ***data*** folder. You can do this with the following commands (run in the terminal):
 ``` shell

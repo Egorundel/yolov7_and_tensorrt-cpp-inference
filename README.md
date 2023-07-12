@@ -36,6 +36,7 @@ for i in range(train_n):
 for i in range(train_n, n):
   shutil.move(os.path.join(path, files[i]), val_path) 
 ```
+You can do the same for labels, since they also need to be divided into train and val (and test, if you need), according to the images.
 
 * You may not have files in the format .txt with markup for each frame, and there is only a file .json, which has markup. To do this, you can use the following code from [ultralytics/JSON2YOLO (github.com)](https://github.com/ultralytics/JSON2YOLO "ultralytics/JSON2YOLO (github.com"). File **general_json2yolo.py**.
 * And finally, you may not have .txt files that contain paths to photos. To do this, run the file txt_for_images.py , having previously changed the path to your folder with train images there (do the same for val and test).

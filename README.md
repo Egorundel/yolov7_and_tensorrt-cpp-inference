@@ -133,3 +133,5 @@ After training, you will be able to go to ***runs/train/yolov7_custom*** and loo
 
 And in the ***weights*** folder you will find the resulting weights in **.pt** format after training. We will need them again.
 ![weights after training](images_for_readme/3_screen.png)
+
+My results were not very good, so I was too lazy to wait for long training, and in general I trained the network with the number of epochs equal to 3 :stuck_out_tongue_closed_eyes:

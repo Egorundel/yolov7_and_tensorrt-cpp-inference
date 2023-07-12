@@ -9,7 +9,7 @@ I advise you to perform all actions in a virtual environment, however, this is n
 
 To begin with, I advise you to create a folder with your training files in the folder yolov7_and_tensorrt-cpp-inference. I have this folder called ***our*** with the following structure:
 
-<h2 style="color:red"> ВСТАВИТЬ СЮДА ПИКЧУ 1_sreen.png </h2>
+<img> images_for_readme/1_sreen.png </img>
 
 Начнём по порядку. Сначала в папке 
 

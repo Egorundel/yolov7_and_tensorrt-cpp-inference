@@ -128,5 +128,8 @@ Also be careful, the default number of epochs=300. If you want to make training 
 
 ---
 
-**After training, you will be able to go to runs/train/yolov7_custom and look at your training results**
+After training, you will be able to go to ***runs/train/yolov7_custom*** and look at your training results
+![results after training](images_for_readme/2_screen.png)
 
+And in the ***weights*** folder you will find the resulting weights in **.pt** format after training. We will need them again.
+![weights after training](images_for_readme/3_screen.png)

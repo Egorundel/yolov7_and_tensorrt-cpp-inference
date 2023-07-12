@@ -62,8 +62,9 @@ output_file = 'train.txt'
 save_file_paths(train_dir, output_file)
 ```
 
+___
 
-First you need to create your custom.yaml in the ***data*** folder. You can do this with the following commands (run in the terminal):
+Next you need to create custom.yaml in the ***data*** folder. You can do this with the following commands (run in the terminal):
 ``` shell
 cd data
 touch custom.yaml

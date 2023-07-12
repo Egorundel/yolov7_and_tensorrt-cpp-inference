@@ -160,6 +160,7 @@ Run the following commands in the terminal that was launched from the ***yolov7_
 
   Next, go to the ***export_ONNX_with_BatchdedNMS*** folder and run the files one by one in the console via terminal:
   ```shell
+  cd export_ONNX_with_BatchdedNMS
   python3 yolov7_add_postprocess.py
   python3 yolov7_add_nms.py
   ```

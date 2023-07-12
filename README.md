@@ -9,7 +9,7 @@ I advise you to perform all actions in a virtual environment, however, this is n
 
 To begin with, I advise you to create a folder with your training files in the folder yolov7_and_tensorrt-cpp-inference. I have this folder called ***our*** with the following structure:
 
-<h4 style="color:red"> ВСТАВИТЬ СЮДА ПИКЧУ 1_sreen.png </h4>
+<h2 style="color:red"> ВСТАВИТЬ СЮДА ПИКЧУ 1_sreen.png </h2>
 
 
 First you need to create your custom.yaml in the ***data*** folder. You can do this with the following commands (run in the terminal):

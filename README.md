@@ -96,6 +96,8 @@ nc: 11
 names: ['biker', 'car', 'pedestrian', 'trafficLight', 'trafficLight-Green', 'trafficLight-GreenLeft', 'trafficLight-Red', 'trafficLight-RedLeft', 'trafficLight-Yellow', 'trafficLight-YellowLeft', 'truck']
 ```
 
+## 2. Training
+
 #### We are going to execute the following command:
 
 Single GPU training

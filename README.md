@@ -7,7 +7,8 @@ I advise you to perform all actions in a virtual environment, however, this is n
 
 First of all, you need to download the repository to your computer. Open a terminal and enter the command:  
 `git clone https://github.com/Egorundel/yolov7_and_tensorrt-cpp-inference.git`  
-Next, you need to install all the necessary libraries for your work. To do this, launch the terminal from the downloaded folder and run the command `pip install -r requirements.txt` in it
+Next, you need to install all the necessary libraries for your work. To do this, launch the terminal from the downloaded folder and run the command:  
+`pip install -r requirements.txt`
 
 # 1. Preparing data for training
 

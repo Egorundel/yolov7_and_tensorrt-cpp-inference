@@ -154,7 +154,9 @@ Run the following commands in the terminal that was launched from the ***yolov7_
   ```
 
 * **with batchedNMSPlugin and TensorRT 7**:  
-  `python export.py --weights runs/train/yolov7-custom/weights/best.py --grid --simplify --topk-all 100 --iou-thres 0.65 --conf-thres 0.35 --img-size 640 640 --max-wh 640`
+  ```shell
+    python export.py --weights runs/train/yolov7-custom/weights/best.py --grid --simplify --topk-all 100 --iou-thres 0.65 --conf-thres 0.35 --img-size 640 640 --max-wh 640
+  ```
 
   Next, go to the ***export_ONNX_with_BatchdedNMS*** folder and run the files one by one in the console via terminal:
   ```shell

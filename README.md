@@ -66,11 +66,11 @@ save_file_paths(train_dir, output_file)
   - split the file .json for three files .json
   you can do this using [pyodi coco split](https://gradiant.github.io/pyodi/reference/apps/coco-split/ "pyodi coco split")
     - to do this, install pyodi into the system by typing in the terminal  
-      ```shell pip install pyodi```
+      ```pip install pyodi```
     - and run the following code in the terminal first once:  
-      ```shell pyodi coco random-split YOUR_PATH_TO_JSON.json ./random_coco_split --val-percentage 0.3 ```
+      ```pyodi coco random-split YOUR_PATH_TO_JSON.json ./random_coco_split --val-percentage 0.3 ```
     - In fact, you got two .json file. This is **train**, where there is 70% of the data and **val**, where there is 30% of the data. Now, according to the same principle, you will split the **val** data into **val** and **test**. To do this, specify in --val-percentage not 0.3, but 0.1.
-      ```shell pyodi coco random-split YOUR_PATH_TO_SECOND_JSON_AFTER_PREVIOUS_CODE.json ./random_coco_split --val-percentage 0.1```  
+      ```pyodi coco random-split YOUR_PATH_TO_SECOND_JSON_AFTER_PREVIOUS_CODE.json ./random_coco_split --val-percentage 0.1```  
 
 As a result, you get 3 files: train (70% of the data), val (20% of the data) and test (10% of the data).    
 Next you need to turn these .json files to txt files.

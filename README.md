@@ -139,3 +139,5 @@ My results were not very good, so I was too lazy to wait for long training, and 
 ___
 
 # 3. Creating an ONNX model
+
+1. Creating a model without NMS module:

@@ -35,27 +35,8 @@ In this code, I divide the images only into **train** and **val**. However, you 
     for i in range(train_n, n):
       shutil.move(os.path.join(path, files[i]), val_path) 
     ```
-* You may not have files in the format .txt with markup for each frame, and there is only a file.json, which has markup. To do this, you can use the following code from [ultralytics/JSON2YOLO (github.com)](https://github.com/ultralytics/JSON2YOLO "ultralytics/JSON2YOLO (github.com")
-  + ```shell
-    import os
-    import shutil
 
-    path = 'images/'
-    train_path = 'images/train'
-    val_path = 'images/val'
-
-    files = [f for f in os.listdir(path) if f.endswith('.jpg')]  # you can change to .png or .txt
-
-    n = len(files)
-    train_n = int(n * 0.8)
-
-    print(n)
-    for i in range(train_n):
-      shutil.move(os.path.join(path, files[i]), train_path)
-
-    for i in range(train_n, n):
-      shutil.move(os.path.join(path, files[i]), val_path) 
-    ``` 
+* You may not have files in the format .txt with markup for each frame, and there is only a file.json, which has markup. To do this, you can use the following code from [ultralytics/JSON2YOLO (github.com)](https://github.com/ultralytics/JSON2YOLO "ultralytics/JSON2YOLO (github.com"). File general_json2yolo.py.
 
 
 First you need to create your custom.yaml in the ***data*** folder. You can do this with the following commands (run in the terminal):

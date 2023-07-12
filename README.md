@@ -88,7 +88,7 @@ And then open this file in any text editor, for example, Sublime Tex and edit th
 # train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
 train: ./our/train.txt # ~23840 images
 val: ./our/val.txt # ~5960 images
-# test: ./PATH_to_TEST_folder (if you want to test later)
+# test: ./PATH_to_TEST_file (if you want to test later)
 
 # number of classes
 nc: 11

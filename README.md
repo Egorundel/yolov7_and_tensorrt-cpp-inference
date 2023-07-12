@@ -11,8 +11,7 @@ To begin with, I advise you to create a folder with your training files in the f
 
 ![structure of our folder for training](images_for_readme/1_screen.png)
 
-- **If you have just a set of photos, but you need to scatter them in the folders train, val and test, then you need to run the file split_files_to_train-val-folders.py in which you need to specify the folder with the path images and the folders where you want to save the split data.**
-- **In this code, I divide the images only into train and val. However, you can modify the code to split the data into train, val and test, but this is not necessary.**
+- **If you have just a set of photos, but you need to scatter them in the folders train, val and test, then you need to run the file split_files_to_train-val-folders.py in which you need to specify the folder with the path images and the folders where you want to save the split data.  In this code, I divide the images only into train and val. However, you can modify the code to split the data into train, val and test, but this is not necessary.**
 
 
 First you need to create your custom.yaml in the ***data*** folder. You can do this with the following commands (run in the terminal):

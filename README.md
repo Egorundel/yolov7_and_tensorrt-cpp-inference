@@ -3,8 +3,12 @@
 #### The repository is taken as a basis: [WongKinYiu/yolov7 (github.com)](https://github.com/WongKinYiu/yolov7 "WongKinYiu/yolov7 (github.com)")
 
 I will show by my example what needs to be done to run a trained yolov7 network on a custom dataset with custom classes.
+I advise you to perform all actions in a virtual environment, however, this is not necessary.
 
 ## 1. Preparing data for training
+
+To begin with, I advise you to create a folder with your training files in the folder yolov7_and_tensorrt-cpp-inference. I have this folder called ***our***.
+
 
 First you need to create your custom.yaml in the ***data*** folder. You can do this with the following commands (run in the terminal):
 ``` shell

@@ -2,7 +2,7 @@
 
 #### The repository is taken as a basis: [WongKinYiu/yolov7 (github.com)](https://github.com/WongKinYiu/yolov7 "WongKinYiu/yolov7 (github.com)")
 
-I will show by my example what needs to be done to run a trained yolov7 network on a custom dataset with custom classes.
+I will show by my example what needs to be done to run a trained yolov7 network on a custom dataset with custom classes.  
 I advise you to perform all actions in a virtual environment, however, this is not necessary.
 
 ## 1. Preparing data for training

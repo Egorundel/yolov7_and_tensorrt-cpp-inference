@@ -15,7 +15,7 @@ To begin with, I advise you to create a folder with your training files in the f
 
 * If you have just a set of photos, but you need to scatter them in the folders train, val and test, then you need to run the file **split_files_to_train-val-folders.py** in which you need to specify the folder with the path images and the folders where you want to save the split data.  
 In this code, I divide the images only into **train** and **val**. However, you can modify the code to split the data into **train**, **val** and **test**, but this is not necessary.
-  + ```shell
+  ```shell
     import os
     import shutil
 
@@ -34,7 +34,7 @@ In this code, I divide the images only into **train** and **val**. However, you 
 
     for i in range(train_n, n):
       shutil.move(os.path.join(path, files[i]), val_path) 
-    ```
+  ```
 
 * You may not have files in the format .txt with markup for each frame, and there is only a file.json, which has markup. To do this, you can use the following code from [ultralytics/JSON2YOLO (github.com)](https://github.com/ultralytics/JSON2YOLO "ultralytics/JSON2YOLO (github.com"). File **general_json2yolo.py**.
 

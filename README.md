@@ -7,7 +7,7 @@ I advise you to perform all actions in a virtual environment, however, this is n
 
 ## 1. Preparing data for training
 
-To begin with, I advise you to create a folder with your training files in the folder yolov7_and_tensorrt-cpp-inference. I have this folder called ***our*** with the following structure:
+To begin with, I advise you to create a folder with your training files in the folder ***yolov7_and_tensorrt-cpp-inference***. I have this folder called ***our*** with the following structure:
 
 ![structure of our folder for training](images_for_readme/1_screen.png)
 
@@ -64,7 +64,7 @@ save_file_paths(train_dir, output_file)
 
 ___
 
-Next you need to create custom.yaml in the ***data*** folder. You can do this with the following commands (run in the terminal):
+Next you need to create **custom.yaml** in the ***data*** folder. You can do this with the following commands (run in the terminal):
 ``` shell
 cd data
 touch custom.yaml

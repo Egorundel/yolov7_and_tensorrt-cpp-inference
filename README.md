@@ -11,7 +11,7 @@ To begin with, I advise you to create a folder with your training files in the f
 
 ![structure of our folder for training](images_for_readme/1_screen.png)
 
-- 1. If you have just a set of photos, but you need to scatter them in the folders train, val and test, then you need to run the file **split_files_to_train-val-folders.py** in which you need to specify the folder with the path images and the folders where you want to save the split data.  
+* If you have just a set of photos, but you need to scatter them in the folders train, val and test, then you need to run the file **split_files_to_train-val-folders.py** in which you need to specify the folder with the path images and the folders where you want to save the split data.  
 In this code, I divide the images only into **train** and **val**. However, you can modify the code to split the data into **train**, **val** and **test**, but this is not necessary.
 
 

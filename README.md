@@ -77,7 +77,10 @@ train: ./our/train.txt # ~23840 images
 val: ./our/val.txt # ~5960 images
 # test: ./PATH_to_TEST_folder (if you want to test later)
 
+# number of classes
 nc: 11
+
+# class names
 names: ['biker', 'car', 'pedestrian', 'trafficLight', 'trafficLight-Green', 'trafficLight-GreenLeft', 'trafficLight-Red', 'trafficLight-RedLeft', 'trafficLight-Yellow', 'trafficLight-YellowLeft', 'truck']
 ```
 

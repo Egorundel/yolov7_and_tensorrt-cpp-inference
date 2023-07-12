@@ -126,4 +126,7 @@ python -m torch.distributed.launch --nproc_per_node 8 --master_port 9527 train_a
 Note: if you don't have a very powerful computer, try reducing the number of **workers** and **batch_size**.  
 Also be careful, the default number of epochs=300. If you want to make training with less number of epochs, then when executing the above commands add **--epochs 100** (for example).
 
-### After
+---
+
+**After training, you will be able to go to runs/train/yolov7_custom and look at your training results**
+

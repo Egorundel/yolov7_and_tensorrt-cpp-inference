@@ -13,8 +13,8 @@ To begin with, I advise you to create a folder with your training files in the f
 
 **Situations you may encounter:**
 
-* If you have just a set of photos, but you need to scatter them in the folders **train**, **val** and **test**, then you need to run the file **split_files_to_train-val-folders.py** in which you need to specify the folder with the path __images__ and the folders where you want to save the split data.  
-In this code, I divide the __images__ only into **train** and **val**. However, you can modify the code to split the data into **train**, **val** and **test**, but this is not necessary.
+* If you have just a set of photos, but you need to scatter them in the folders **train**, **val** and **test**, then you need to run the file **split_files_to_train-val-folders.py** in which you need to specify the folder with the path _images_ and the folders where you want to save the split data.  
+In this code, I divide the _images_ only into **train** and **val**. However, you can modify the code to split the data into **train**, **val** and **test**, but this is not necessary.
 ```python
 import os
 import shutil
@@ -36,7 +36,7 @@ for i in range(train_n):
 for i in range(train_n, n):
   shutil.move(os.path.join(path, files[i]), val_path) 
 ```
-You can do the same for __labels__, since they also need to be divided into **train** and **val** (and **test**, if you need), according to the __images__.
+You can do the same for _labels_, since they also need to be divided into **train** and **val** (and **test**, if you need), according to the _images_.
 
 * You may not have files in the format .txt with markup for each frame, and there is only a file .json, which has markup. To do this, you can use the following code from [ultralytics/JSON2YOLO (github.com)](https://github.com/ultralytics/JSON2YOLO "ultralytics/JSON2YOLO (github.com"). File **general_json2yolo.py**.
 * And finally, you may not have .txt files that contain paths to photos. To do this, run the file txt_for_images.py , having previously changed the path to your folder with train images there (do the same for val and test).

@@ -41,24 +41,24 @@ for i in range(train_n, n):
 * And finally, you may not have .txt files that contain paths to photos. To do this, run the file txt_for_images.py , having previously changed the path to your folder with train images there (do the same for val and test).
 ```python
 import os
-import shutil
 
-path = 'images/'
-train_path = 'images/train'
-val_path = 'images/val'
+# A function that runs through images and saves paths to a file that you specify below in the output_file variable
+def save_file_paths(root_dir, file):
+    with open(file, 'w') as f:
+        for root, dirs, files in os.walk(root_dir):
+            for filename in files:
+                file_path = './' + os.path.join(root, filename)[os.path.join(root, filename).find("images") + 0:]
+                print(file_path)
+                f.write(file_path + '\n')
 
-files = [f for f in os.listdir(path) if f.endswith('.jpg')]  # you can change to .png or .txt
+# Path to folder images/train (images/val, images/test)
+train_dir = 'images/train'
 
-n = len(files)
-train_n = int(n * 0.8)
+# Path to file, in which will be saved paths to pictures
+output_file = 'train.txt'
 
-print(n)
-
-for i in range(train_n):
-  shutil.move(os.path.join(path, files[i]), train_path)
-
-for i in range(train_n, n):
-  shutil.move(os.path.join(path, files[i]), val_path) 
+# Starting file crawling and saving image paths to output_file
+save_file_paths(train_dir, output_file)
 ```
 
 

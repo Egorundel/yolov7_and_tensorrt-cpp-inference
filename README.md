@@ -15,9 +15,9 @@ touch custom.yaml
 And then open this file in any text editor, for example, Sublime Tex and edit the file (I'll show you with my example).
 ```yaml
 # train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
-train: ./train.txt  # 118287 images
-val: ./val.txt  # 5000 images
-test: ./test.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+train: ./our/train.txt  # ~2605 images
+val: ./our/val.txt  # ~380 images
+test: ./our/test.txt  # ~330 images
 
 # number of classes
 nc: 13

@@ -5,7 +5,7 @@
 I will show by my example what needs to be done to run a trained yolov7 network on a custom dataset with custom classes.  
 I advise you to perform all actions in a virtual environment, however, this is not necessary.
 
-## 1. Preparing data for training
+# 1. Preparing data for training
 
 To begin with, I advise you to create a folder with your training files in the folder ***yolov7_and_tensorrt-cpp-inference***. I have this folder called ***our*** with the following structure:
 
@@ -99,7 +99,7 @@ names: ['biker', 'car', 'pedestrian', 'trafficLight', 'trafficLight-Green', 'tra
 
 ___
 
-## 2. Training
+# 2. Training
 
 #### We are going to execute the following command:
 

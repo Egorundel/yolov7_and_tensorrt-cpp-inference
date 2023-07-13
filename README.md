@@ -232,4 +232,4 @@ ___
 * https://github.com/ultralytics/JSON2YOLO
 * https://github.com/lutzroeder/netron
 
-<h2 allign="center"> Thanks for attention :) </h2>
+<h1 align="center"> Thanks for attention :) </h1>

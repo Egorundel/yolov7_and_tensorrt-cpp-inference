@@ -19,6 +19,8 @@ To begin with, I advise you to create a folder with your training files in the f
 
 ![structure of our folder for training](images_for_readme/1_screen.png)
 
+You can take the files **json2yolo(txt).py**, **split_files_to_train-val-folders.py**, **txt_for_images.py** and **utils.py** from the useful_python_codes folder and move them to your dataset folder.
+
 **Situations you may encounter:**
 
 * If you have just a set of photos, but you need to scatter them in the folders **train**, **val** and **test**, then you need to run the file **split_files_to_train-val-folders.py** in which you need to specify the folder with the path _images_ and the folders where you want to save the split data.  

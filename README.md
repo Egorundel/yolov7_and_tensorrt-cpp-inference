@@ -164,7 +164,14 @@ Run the following commands in the terminal that was launched from the ***yolov7_
 
   Next, go to the ***export_ONNX_with_BatchdedNMS*** folder and edit files **yolov7_add_postprocess.py** and **yolov7_add_nms.py**.
 
-  ![editing yolov7_add_postprocess.py](images_for_readme/4_screen.png)
+  ```python
+    graph = gs.import_onnx(onnx.load("./best.onnx"))  # change on your path
+
+    num_classes = 11  # change on your number
+
+    # input
+    origin_output = [node for node in graph.nodes if node.name == "Concat_386"][0]  # change 386 on your last Concat number
+  ```
 
   You need to change your path to the ONNX model you got after the previous command, then change the number of classes you have and then change the number of the last Concat Node in your model. In order to find out this number, you need to upload your ONNX model to [Netron App](https://netron.app/ "Netron App") от разработчика [lutzroeder/netron (github.com)](https://github.com/lutzroeder/netron "lutzroeder/netron (github.com)")
 

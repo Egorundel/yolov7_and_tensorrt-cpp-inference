@@ -195,4 +195,6 @@ Run the following commands in the terminal that was launched from the ***yolov7_
   ```
   Then you can also upload your resulting model to the [Netron App](https://netron.app/ "Netron App") and check that your model at the end contains the efficientNMS exactly.
 
-# 3. Converting model to tensorrt engine (.trt or .engine)
+___
+
+# 4. Converting model to tensorrt engine (.trt or .engine)

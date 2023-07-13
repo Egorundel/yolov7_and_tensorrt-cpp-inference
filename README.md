@@ -225,6 +225,8 @@ Tested with:
 
 ___
 
+## Thanks for attention :)
+
 # Acknowledgements
 * https://github.com/WongKinYiu/yolov7
 * https://github.com/DataXujing/YOLOv7

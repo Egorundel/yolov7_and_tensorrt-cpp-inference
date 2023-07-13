@@ -163,7 +163,9 @@ Run the following commands in the terminal that was launched from the ***yolov7_
   ```
 
   Next, go to the ***export_ONNX_with_BatchdedNMS*** folder and edit files **yolov7_add_postprocess.py** and **yolov7_add_nms.py**.
-  `cd export_ONNX_with_BatchdedNMS`
+  ```shell
+    cd export_ONNX_with_BatchdedNMS
+  ```
 
   for **yolov7_add_postprocess.py**:
   ```python

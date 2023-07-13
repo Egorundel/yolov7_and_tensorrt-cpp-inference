@@ -197,4 +197,4 @@ Run the following commands in the terminal that was launched from the ***yolov7_
 
 ___
 
-# 4. Converting onnx model to TensorRT engine (.trt or .engine)
+# 4. Converting ONNX model to TensorRT engine (.trt or .engine)

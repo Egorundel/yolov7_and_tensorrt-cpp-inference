@@ -152,7 +152,7 @@ ___
 
 Run the following commands in the terminal that was launched from the ***yolov7_and_tensorrt-cpp-inference*** folder
 
-#### * **without NMS Plugin**:  
+## * **without NMS Plugin**:  
   ```shell
     python3 export.py --weights runs/train/yolov7-custom/weights/best.pt --grid --simplify --topk-all 100 --iou-thres 0.65 --conf-thres 0.35 --img-size 640 640 --max-wh 640
   ```

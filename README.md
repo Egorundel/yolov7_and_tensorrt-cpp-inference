@@ -146,7 +146,7 @@ My results were not very good, so I was too lazy to wait for long training, and 
 
 ___
 
-# 3. Creating an ONNX model
+# 3. Creating an ONNX model (.onnx)
 
 Run the following commands in the terminal that was launched from the ***yolov7_and_tensorrt-cpp-inference*** folder
 
@@ -194,3 +194,5 @@ Run the following commands in the terminal that was launched from the ***yolov7_
     python3 export.py --weights ./yolov7-tiny.pt --grid --end2end --simplify --topk-all 100 --iou-thres 0.65 --conf-thres 0.35 --img-size 640 640
   ```
   Then you can also upload your resulting model to the [Netron App](https://netron.app/ "Netron App") and check that your model at the end contains the efficientNMS exactly.
+
+# 3. Converting model to tensorrt engine (.trt or .engine)

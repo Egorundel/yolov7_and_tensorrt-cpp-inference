@@ -186,3 +186,4 @@ Run the following commands in the terminal that was launched from the ***yolov7_
   python3 yolov7_add_postprocess.py
   python3 yolov7_add_nms.py
   ```
+  Then you can also upload your resulting model to the [Netron App] website (https://netron.app/ "Netron App") and check that your model at the end contains the NMS exactly.

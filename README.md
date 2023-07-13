@@ -162,7 +162,11 @@ Run the following commands in the terminal that was launched from the ***yolov7_
     python export.py --weights runs/train/yolov7-custom/weights/best.py --grid --simplify --topk-all 100 --iou-thres 0.65 --conf-thres 0.35 --img-size 640 640 --max-wh 640
   ```
 
-  Next, go to the ***export_ONNX_with_BatchdedNMS*** folder and edit files yolov7_add_postprocess.py and yolov7_add_nms.py.
+  Next, go to the ***export_ONNX_with_BatchdedNMS*** folder and edit files **yolov7_add_postprocess.py** and **yolov7_add_nms.py**.
+
+  ![editing yolov7_add_postprocess.py](images_for_readme/4_screen.png)
+
+  You need to change your path to the ONNX model you got after the previous command, then change the number of classes you have and then change the number of the last Concat Node in your model. In order to find out this number, you need to upload your ONNX model to [Netron App](https://netron.app/ "Netron App").
 
   ```shell
   python3 yolov7_add_postprocess.py

@@ -198,3 +198,22 @@ Run the following commands in the terminal that was launched from the ***yolov7_
 ___
 
 # 4. Converting ONNX model to TensorRT engine (.trt or .engine)
+
+
+___
+
+# 5. TensorRT inference in C++
+
+
+## **Results**:  
+
+Tested with: ----
+
+___
+
+# Acknowledgements
+* https://github.com/WongKinYiu/yolov7
+* https://github.com/DataXujing/YOLOv7
+* https://public.roboflow.com/object-detection/self-driving-car/3/download
+* https://github.com/ultralytics/JSON2YOLO
+* https://github.com/lutzroeder/netron

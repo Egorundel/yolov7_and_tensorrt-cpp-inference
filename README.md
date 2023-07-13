@@ -187,9 +187,10 @@ Run the following commands in the terminal that was launched from the ***yolov7_
   python3 yolov7_add_postprocess.py
   python3 yolov7_add_nms.py
   ```
-  Then you can also upload your resulting model to the [Netron App](https://netron.app/ "Netron App") and check that your model at the end contains the NMS exactly.
+  Then you can also upload your resulting model to the [Netron App](https://netron.app/ "Netron App") and check that your model at the end contains the batchedNMS exactly.
   
 ## **with efficientNMSPlugin for TensorRT 8**:
   ```shell
     python3 export.py --weights ./yolov7-tiny.pt --grid --end2end --simplify --topk-all 100 --iou-thres 0.65 --conf-thres 0.35 --img-size 640 640
   ```
+  Then you can also upload your resulting model to the [Netron App](https://netron.app/ "Netron App") and check that your model at the end contains the efficientNMS exactly.

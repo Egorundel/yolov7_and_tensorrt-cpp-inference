@@ -208,11 +208,11 @@ ___
 Open the whole project, for example, in Clion IDE.
 
 Next, in the **yolov7.h** file, edit the `NUM_CLASS`, `class_names`, change the `mode` of operation (video or image) and `class_colors` as desired. 
-And in the file **yolov7.cpp** change the path to the engine `engine_filepath`. Also, don't forget to download video files or photos to the appropriate ***samples_video*** or ***samples_images*** folders and specify the paths to them in the **yolov7.cpp** code
+And in the file **yolov7.cpp** change the path to the engine `engine_filepath`. Also, don't forget to download video files or photos to the appropriate ***samples_video*** or ***samples_images*** folders and specify the paths to them in the **yolov7.cpp** code.
 
 Note: I'm considering a project with the NMS Plugin. If you are working without NMS Plugin, change the number **5** to number **2** in `void* buffers[5];` in **yolov7.h** and reduce the number of lines cudaMalloc, cudaMemcpy and cudaFree to **2** instead of **5** in **yolov7.cpp**. However, you may need to further refine the code. 
 
-And finally, run CMake (don't forget to correct the paths to the libraries in CMakeLists.txt), build the project and run the code
+And finally, run CMake (don't forget to correct the paths to the libraries in CMakeLists.txt), build the project and run the code.
 
 ## **Results**:  
 

@@ -167,7 +167,7 @@ Run the following commands in the terminal that was launched from the ***yolov7_
     cd export_ONNX_with_BatchdedNMS
   ```
 
-  edit for **yolov7_add_postprocess.py**:
+  edit code of **yolov7_add_postprocess.py**:
   ```python
     graph = gs.import_onnx(onnx.load("./best.onnx"))  # change on your path
 
@@ -179,7 +179,7 @@ Run the following commands in the terminal that was launched from the ***yolov7_
 
   To see your last Concat number, you need to upload your ONNX model to [Netron App](https://netron.app/ "Netron App") from the developer [lutzroeder/netron (github.com)](https://github.com/lutzroeder/netron "lutzroeder/netron (github.com)") and look there in the properties of your latest Concat Node number.
 
-  edit for **yolov7_add_nms.py**:
+  edit code of **yolov7_add_nms.py**:
   ```python
     number_classes = 11  # change on your number
   ```

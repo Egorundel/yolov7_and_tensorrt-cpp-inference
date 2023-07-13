@@ -11,7 +11,7 @@ First of all, you need to download the repository to your computer. Open a termi
 Next, you need to install all the necessary libraries for your work. To do this, launch the terminal from the downloaded folder and run the command:  
 `pip install -r requirements.txt`
 
-You can also download my pre-prepared dataset at [our.zip (disk.yandex.ru)](https://disk.yandex.ru/d/gaYUNb3FHXQg0A "our.zip (disk.yandex.ru)") and enter the password: **KnFt**
+You can also download pre-prepared dataset at [our.zip (disk.yandex.ru)](https://disk.yandex.ru/d/gaYUNb3FHXQg0A "our.zip (disk.yandex.ru)") and enter the password: **KnFt**
 
 # 1. Preparing data for training
 

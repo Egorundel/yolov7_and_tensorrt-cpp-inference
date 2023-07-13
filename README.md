@@ -225,11 +225,11 @@ Tested with:
 
 ___
 
-## Thanks for attention :)
-
 # Acknowledgements
 * https://github.com/WongKinYiu/yolov7
 * https://github.com/DataXujing/YOLOv7
 * https://public.roboflow.com/object-detection/self-driving-car/3/download
 * https://github.com/ultralytics/JSON2YOLO
 * https://github.com/lutzroeder/netron
+
+<h2 allign="center"> Thanks for attention :) </h2>

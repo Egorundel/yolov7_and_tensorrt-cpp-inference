@@ -214,7 +214,8 @@ Note: I'm considering a project with the NMS Plugin. If you are working without 
 
 And finally, run CMake (don't forget to correct the paths to the libraries in CMakeLists.txt), build the project and run the code.
 
-## **Results**:  
+## **Results**:
+![results](samples_images/res/photo2_inference.jpg)
 
 Tested with:
 * Python: 3.7

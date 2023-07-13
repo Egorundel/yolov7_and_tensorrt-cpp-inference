@@ -174,7 +174,7 @@ Run the following commands in the terminal that was launched from the ***yolov7_
     origin_output = [node for node in graph.nodes if node.name == "Concat_386"][0]  # change 386 on your last Concat number
   ```
 
-  You need to change your path to the ONNX model you got after the previous command, then change the number of classes you have and then change the number of the last Concat Node in your model. In order to find out this number, you need to upload your ONNX model to [Netron App](https://netron.app/ "Netron App") from the developer [lutzroeder/netron (github.com)](https://github.com/lutzroeder/netron "lutzroeder/netron (github.com)") and look there in the properties of your latest Concat Node number.
+  To see your last Concat number, you need to upload your ONNX model to [Netron App](https://netron.app/ "Netron App") from the developer [lutzroeder/netron (github.com)](https://github.com/lutzroeder/netron "lutzroeder/netron (github.com)") and look there in the properties of your latest Concat Node number.
 
   for **yolov7_add_nms.py**:
   ```python

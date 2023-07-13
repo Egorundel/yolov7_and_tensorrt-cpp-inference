@@ -198,8 +198,9 @@ Run the following commands in the terminal that was launched from the ***yolov7_
 ___
 
 # 4. Converting ONNX model to TensorRT engine (.trt or .engine)
-
-
+```shell
+  trtexec --onnx=postprocessed_model_nms.onnx --saveEngine=yolov7.trt --workspace=3000 --verbose
+```
 ___
 
 # 5. TensorRT inference in C++

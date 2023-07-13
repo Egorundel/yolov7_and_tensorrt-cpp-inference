@@ -19,7 +19,7 @@ To begin with, I advise you to create a folder with your training files in the f
 
 ![structure of our folder for training](images_for_readme/1_screen.png)
 
-You can take the files **json2yolo(txt).py**, **split_files_to_train-val-folders.py**, **txt_for_images.py** and **utils.py** from the useful_python_codes folder and move them to your dataset folder.
+You can take the files **json2yolo(txt).py**, **split_files_to_train-val-folders.py**, **txt_for_images.py** and **utils.py** from the ***useful_python_codes*** folder and move them to your dataset folder.
 
 **Situations you may encounter:**
 

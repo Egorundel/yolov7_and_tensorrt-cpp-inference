@@ -111,8 +111,6 @@ ___
 
 # 2. Training
 
-#### We are going to execute the following command:
-
 Single GPU training
 
 ``` shell

@@ -181,7 +181,7 @@ Run the following commands in the terminal that was launched from the ***yolov7_
     number_classes = 11  # change on your number
   ```
 
-  After making changes to these files, you need to run these commands one by one
+  After making changes to these files, you need to run these commands one by one:
   ```shell
   python3 yolov7_add_postprocess.py
   python3 yolov7_add_nms.py

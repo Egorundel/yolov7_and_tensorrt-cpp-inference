@@ -217,6 +217,8 @@ And finally, run CMake (don't forget to correct the paths to the libraries in CM
 ## **Results**:
 ![results](samples_images/res/photo2_inference.jpg)
 
+IMPORTANT INFORMATION: I remind you that my model performs poorly because I'm lazy and was too lazy to wait for a large number of epochs and maybe I didn't have good quality data, but I only used open data everywhere so as not to violate copyrights. On your real working examples the situation should be better.
+
 Tested with:
 * Python: 3.7
 * TensorRT: 7.2.1.6

@@ -180,10 +180,8 @@ Run the following commands in the terminal that was launched from the ***yolov7_
   ```python
     number_classes = 11  # change on your number
   ```
-  
-  In the file **yolov7_add_nms.py** you only need to change the number of classes to your own.
 
-
+  After making changes to these files, you need to run these commands one by one
   ```shell
   python3 yolov7_add_postprocess.py
   python3 yolov7_add_nms.py

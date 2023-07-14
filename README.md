@@ -228,6 +228,7 @@ ___
 # Acknowledgements
 * https://github.com/WongKinYiu/yolov7
 * https://github.com/DataXujing/YOLOv7
+* https://github.com/linghu8812/tensorrt_inference
 * https://public.roboflow.com/object-detection/self-driving-car/3/download
 * https://github.com/ultralytics/JSON2YOLO
 * https://github.com/lutzroeder/netron

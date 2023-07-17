@@ -1,5 +1,7 @@
 # YoloV7 and TensorRT Inference (C++)
-Training the network on custom data, converting the resulting model into an ONNX and TRT (ENGINE) model, and deploying the model into an inference in C++.
+- Training the network on custom data;
+- Converting the resulting model into an ONNX and TRT (ENGINE) model;
+- Deploying the model into an inference in C++.
 
 #### The repository is taken as a basis: [WongKinYiu/yolov7 (github.com)](https://github.com/WongKinYiu/yolov7 "WongKinYiu/yolov7 (github.com)")
 

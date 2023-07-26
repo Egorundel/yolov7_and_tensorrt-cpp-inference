@@ -110,6 +110,13 @@ nc: 11
 names: ['biker', 'car', 'pedestrian', 'trafficLight', 'trafficLight-Green', 'trafficLight-GreenLeft', 'trafficLight-Red', 'trafficLight-RedLeft', 'trafficLight-Yellow', 'trafficLight-YellowLeft', 'truck']
 ```
 
+Then you need edit **nc** in ***cfg/training/yolov7_custom.yaml***:
+```
+# parameters
+nc: 11  # number of classes
+depth_multiple: 1.0  # model depth multiple
+width_multiple: 1.0  # layer channel multiple
+```
 ___
 
 # 2. Training

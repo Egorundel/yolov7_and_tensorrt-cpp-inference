@@ -165,7 +165,7 @@ Run the following commands in the terminal that was launched from the ***yolov7_
     python3 export.py --weights runs/train/yolov7-custom/weights/best.pt --grid --simplify --topk-all 100 --iou-thres 0.65 --conf-thres 0.35 --img-size 640 640 --max-wh 640
   ```
 
-## **with batchedNMSPlugin only for TensorRT 7**:  
+## **with batchedNMSPlugin only for TensorRT 7/8**:  
   ```shell
     python3 export.py --weights runs/train/yolov7-custom/weights/best.pt --grid --simplify --topk-all 100 --iou-thres 0.65 --conf-thres 0.35 --img-size 640 640 --max-wh 640
   ```
@@ -199,7 +199,7 @@ Run the following commands in the terminal that was launched from the ***yolov7_
   ```
   Then you can also upload your resulting model to the [Netron App](https://netron.app/ "Netron App") and check that your model at the end contains the batchedNMS exactly.
   
-## **with efficientNMSPlugin for TensorRT 7/8**:
+## **with efficientNMSPlugin for TensorRT 8**:
   ```shell
     python3 export.py --weights ./yolov7-tiny.pt --grid --end2end --simplify --topk-all 100 --iou-thres 0.65 --conf-thres 0.35 --img-size 640 640
   ```
